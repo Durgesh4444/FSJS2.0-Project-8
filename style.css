@@ -38,7 +38,8 @@ font-family: "Poppins", sans-serif;
 }
 
 .shop{
-    background-color:#1c1b1b;
+    border: none;
+    background-color:#181A1B;
     height: 50px;
     width: 140px;
     color: #fff;
@@ -52,7 +53,7 @@ font-family: "Poppins", sans-serif;
 .navbar .right .menue button:hover{
     cursor: pointer;
     background-color: #fff;
-    color: #1c1b1b;
+    color: #181A1B;
 }
 
 .navbar .onear{
@@ -118,9 +119,133 @@ font-family: "Poppins", sans-serif;
     display: flex;
     gap:150px;
     padding-bottom: 50px;
+    margin-bottom: 0;
 }
 
 .logo img{
     width: 100px;
     height: 35px;
 }
+
+/* specs section  */
+.specs{
+    
+    position: relative;
+    top: -40px;
+    background-color: #0E0E0E;
+}
+
+.specs .specs-logo{
+    display: flex;
+    
+    justify-content: center;
+    padding:10vh 0 6vh 0;
+
+}
+
+.specs .abc{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: #fff;
+    padding-bottom: 15vh;
+}
+.specs .abc .bluetooth{
+    margin-bottom: 20px;
+}
+
+.specs .abc .left .bluetooth h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.specs .abc .left .bluetooth p{
+    font-size: 12px;
+    color: gray;
+}
+.specs .abc .left .bluetooth:nth-child(1), .bluetooth:nth-child(4){
+    position: relative;
+    left: 50px;
+}
+
+/* case section  */
+.case{
+    position: relative;
+    top: -40px;
+    background-color: #0E0E0E;
+
+
+}
+.case .case-logo{
+    display: flex;
+    justify-content: center;
+    padding:5vh 0 6vh;
+}
+
+.case .content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color:gray;
+    margin-bottom: 15vh;
+}
+
+.case .content .right{
+    padding-top: 100px;
+    font-size: 16px;
+}
+
+.case .content .right button{
+    margin-left: 0;
+    margin-top: 50px;
+    width: 150px;
+    height: 55px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 15px;
+}
+
+/* gray section  */
+
+.gray{
+    margin-left: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #181A1B;
+    width: 60vw;
+    height: 45vh;
+    border-radius: 20px;
+    gap: 100px;
+
+}
+
+.gray .left h2{
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.gray .left p{
+    font-size: 15px;
+    color: gray;
+    margin:15px 0;
+}
+
+.gray .left button{
+    margin-left: 0;
+    background-color: #000000;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.gray .left button p{
+    color: #fff;
+}
+
